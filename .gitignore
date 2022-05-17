@@ -1,2 +1,5 @@
 express/node_modules
 ./express/node_modules
+./frontends/frontendapi/node_modules
+frontends/frontendapi/node_modules
+templateengines/node_modules

@@ -1,0 +1,5 @@
+npm init -y --->this was to set up a node project package.json
+npm install express  --->install express js in our app
+
+cd -->linux/unix command which represents change directory
+
