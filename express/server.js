@@ -9,11 +9,12 @@ const app=express();
 app.use(cors());
 
 //one of the syntax to use a middleware is 
-
+// application/json -->
 app.use(express.json())  //   // for json data  app level middleware  // bodyparser
 
 
 
+//www/url-encoded data 
 
 app.use(express.urlencoded({extended:false}))  // for url encoded data
 
