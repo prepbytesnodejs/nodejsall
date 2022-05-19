@@ -4,6 +4,8 @@ const { v4: uuidv4 } = require('uuid');
 const app=express();
 const port=9090;
 
+// mvc
+
 app.set('view engine','ejs');
 
 
