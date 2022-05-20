@@ -15,7 +15,13 @@ const subtract=(a,b)=>{
 
 //export default add  ----es6 import export in react
 
-module.exports=add;
+const myData=89;
+
+//module.exports=add;
+module.exports={
+    myData
+
+}
 
 
 //module.exports=add // default export ;
