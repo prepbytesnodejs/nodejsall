@@ -8,6 +8,7 @@ const cors=require("cors");
 const {loggingMiddleware,commonResponseMiddleware} =require("./middlewares/applevelmiddleware");
 
 // app level middleware -->
+app.use(commonResponseMiddleware);
 
 
 
@@ -20,7 +21,6 @@ app.use("/bookmark",bookmarksrouter);
 
 app.use("/show",showrouter);
 
-app.use(commonResponseMiddleware);
 
 
 

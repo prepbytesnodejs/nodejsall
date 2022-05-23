@@ -8,3 +8,5 @@ routing/node_modules
 ./bookmarksapp/node_modules
 bookmarksapp/node_modules
 herokudeploynew/node_modules
+authapp/node_modules
+./authapp/node_modules
